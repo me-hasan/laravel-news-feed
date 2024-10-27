@@ -1,5 +1,5 @@
 {
-    "name": "khayrulhasan/news-api",
+    "name": "khayrulhasan/laravel-news-feeds",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -12,5 +12,14 @@
             "email": "khayrul.web@gmail.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "pestphp/pest": "^3.5",
+        "mockery/mockery": "^1.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        },
+        "sort-packages": true
+    }
 }

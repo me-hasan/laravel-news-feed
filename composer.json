@@ -1,0 +1,16 @@
+{
+    "name": "khayrulhasan/news-api",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Khayrulhasan\\NewsApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Md Khayrul Hasan",
+            "email": "khayrul.web@gmail.com"
+        }
+    ],
+    "require": {}
+}
